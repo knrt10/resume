@@ -1,0 +1,120 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% !TeX spellcheck = en
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.52in,right=0.75in,bottom=0.52in]{geometry} % Document margins
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
+\usepackage{marvosym}
+\usepackage{graphicx}
+
+\name{Kautilya Tripathi}
+\address{\href{https://knrt10.github.io/}{knrt10.github.io} \\
+         \href{mailto:tripathi.kautilya@gmail.com}{tripathi.kautilya@gmail.com}\ \\
+         \href{https://www.linkedin.com/in/knrt10/}{in/knrt10} \\
+         \href{https://github.com/knrt10/}{github.com/knrt10}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+  \begin{rSummarySection}
+  {
+    \item Experience with backend web services and open source development. Interested in SRE, distributed systems, dev tools and systems programming.
+    \item Go, JavaScript, TypeScript, Kubernetes, ElasticSearch, MongoDB, git
+  }
+  \end{rSummarySection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% WORK SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+  \begin{rWorkSection}{Open Mainframe Project}
+                           {Remote}
+                           {Open Mainframe Intern}
+                           {June -- Sep '19}
+  {
+    \item Built docker images fors 390x architecture on SUSE along with a bot to keep the images in sync with Dockerhub and Github.   
+    \ item Setup Jenkins CI pipeline. \href{https://github.com/openmainframeproject-internship/DockerHub-Development-Stacks/}{Project's Repository} and \href{https://github.com/knrt10/docker-hub-development-stacks-bot/}{Bot Repository}.  
+  }                         
+  \end{rWorkSection}
+
+  \begin{rWorkSection}{Rocket.Chat}
+                      {Remote}
+                      {Google Summer of Code Student}
+                      {May -- Sep '19}
+  {
+    \item Added new feature of Realtime-Monitoring to their product Livechat. \href{http://bit.ly/2kGqWt2/}{GSoC Work Report}.
+  }
+  \end{rWorkSection}
+
+  \begin{rWorkSection}{Atlan}
+                     {New Delhi, IN}
+                     {Software Development Intern (Backend)}
+                     {Jan -- July '19}
+  {
+    \item Worked on Baseline Upload for their software collect. 
+    \item Rewrote Collect's File Upload which increased the speed and error handling by 99%. Used Jmeter and Blazemeter for load testing. Deployed their code to development and staging.
+    \item Implemented task queues and workers using SQS and RabbitMQ.
+    \item Rewrote their module response validation in Golang.
+  }
+  \end{rWorkSection}
+
+  \begin{rWorkSection}{Eulercoder}
+                     {Remote}
+                     {Contract Developer}
+                     {1 week '18}
+  {
+    \item Developed admin API where one can see all users and manage them.
+    \item Worked on frontend for admin in React.
+  }
+  \end{rWorkSection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+  \begin{rProjectSection}
+    \item \textbf {Typeracer-cli} -- Learn how to touch type from terminal. Written in \href{https://github.com/p-society/typeracer-cli/}{TypeScript}.
+    \item \textbf {asciiConvert} -- Get ascii art in terminal. Written in \href{https://github.com/knrt10/asciiConvert/}{Golang}
+    \item \textbf {cloudinary-cli} -- CLI tool for managing files in \href{https://cloudinary.com/}{cloudinary.com}. Code can be \href{https://github.com/knrt10/cloudinary-cli/}{found here}
+    \item Other projects found \href{https://knrt10.github.io/projects/}{found here}
+  \end{rProjectSection}
+
+  \begin{rBlurbSection}
+    \item {\em Open-source contributions:}
+      I am an active OSS contributor. My \href{http://bit.ly/2kdr9Ui/}{\textbf{Merged PR's}} and \href{http://bit.ly/2kxjvV9/}{\textbf{open PR's}}.
+  \end{rBlurbSection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer Experience and Honours}
+  \begin{tabular}{rll}
+2018	     & {\href{https://github.com/p-society/}{P-Society}}  & Led the college programming club.\\
+2018	     & FreeCodeCamp  & Got \href{https://www.freecodecamp.org/knrt10/}{4 certificates}.\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+  \begin{rEducationSection}{International Institute of Information Technology, Bhubaneswar}
+                           {Aug '16 -- Present}
+                           {Bachelor of Technology in Computer Science and Engineering}
+  \end{rEducationSection}
+\end{rSection}
+
+\end{document}
