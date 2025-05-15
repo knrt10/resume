@@ -1,5 +1,5 @@
 install:
-	brew cask install basictex
+	brew install basictex --cask
 
 resume :
 	pdflatex resume.tex
